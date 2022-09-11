@@ -10,4 +10,4 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Verify Docker is running using 'docker -v' and 'docker-compose -v' commands from the terminal. Then run 'docker-compose up' from the project root directory.  If you encounter an import error with python on the back end, see solution in backend/README.md. Point your browser to http://localhost:3000/api/ping to verify the backend is running. Create a new user on http://localhost:3001/register to verify the front end is connected to the back end.
